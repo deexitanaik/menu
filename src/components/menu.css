@@ -28,7 +28,7 @@
 }
 
 .category-button.active {
-  background: black;
+  background: rgb(215, 62, 62);
   color: white;
 }
 
@@ -81,7 +81,7 @@
 .order-button {
   padding: 8px 12px;
   background: black;
-  color: white;
+  color: rgb(122, 28, 28);
   border: none;
   border-radius: 5px;
   cursor: pointer;
