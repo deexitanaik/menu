@@ -1,0 +1,74 @@
+.menu-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 16px;
+    transition: transform 0.2s ease-in-out;
+    width: 250px;
+  }
+  
+  .menu-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .menu-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .menu-card .menu-details {
+    margin-top: 10px;
+  }
+  
+  .menu-card .availability {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .menu-card h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .menu-card .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-top: 5px;
+  }
+  
+  /* Counter & Order Button */
+  .menu-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .menu-actions .counter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-actions button {
+    background-color: black;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-actions button:hover {
+    background-color: #333;
+  }
+  
+  .menu-actions .count {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
